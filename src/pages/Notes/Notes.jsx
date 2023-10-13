@@ -1,13 +1,11 @@
 import React from "react";
-import dummyNotes from "../../dummy-notes";
 import NoteItem from "../../components/NoteItem/NoteItem";
-
 import { BsSearch } from "react-icons/bs";
 import { BsPlusLg } from "react-icons/bs";
 import { Link } from "react-router-dom";
-const Notes = () => {
+const Notes = ({ notes }) => {
   return (
-    <div>
+    <div className="bg-gradient-to-r from-slate-900 to-rose-500 h-screen pb-3">
       <header className="p-6 grid grid-cols-5 ">
         <span className="text-5xl text-rose-50 col-start-1">My Notes</span>
         <div className=" flex gap-2 col-start-4">
@@ -33,7 +31,7 @@ const Notes = () => {
         </Link>
       </header>
       <section className="grid grid-cols-3 gap-4 m-3">
-        {dummyNotes.map((note) => (
+        {notes.map((note) => (
           <NoteItem key={note.id} note={note} />
         ))}
       </section>

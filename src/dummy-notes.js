@@ -2,62 +2,74 @@ const dummyNotes = [
   {
     id: 1,
     title: "test note 1",
-    content: "bla bla note1",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 2,
     title: "test note 2 ",
-    content: "bla bla note2",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 3,
     title: "test note 3",
-    content: "bla bla note3",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 4,
     title: "test note 4 ",
-    content: "bla bla note4",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 5,
     title: "test note 5",
-    content: "bla bla note5",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 6,
     title: "test note 6",
-    content: "bla bla note6",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 7,
     title: "test note 7",
-    content: "bla bla note7",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 8,
     title: "test note 8 ",
-    content: "bla bla note8",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 9,
     title: "test note 9",
-    content: "bla bla note9",
+    content:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 10,
     title: "test note 10 ",
-    content: "bla bla note10",
+    content:
+      "bLorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 11,
     title: "test note 11",
-    content: "bla bla note11",
+    content:
+      "bLorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
   {
     id: 12,
     title: "test note 12",
-    content: "bla bla note12",
+    content:
+      "bLorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolorem porro rem optio accusantium est, totam saepe nostrum nemo, aut, voluptatibus aliquam dolores excepturi repellendus! Corporis, alias? Itaque, laborum delectus!",
   },
 ];
 
