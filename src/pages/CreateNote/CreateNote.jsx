@@ -9,14 +9,14 @@ const CreateNote = ({ setNotes }) => {
   const [title, setTitle] = useState("");
   const [content, setContent] = useState("");
   const date = UseCreateDate();
-  const Navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (title && content) {
       const note = { id: uuid(), title, content, date };
       setNotes((prevNote) => [note, ...prevNote]);
-      Navigate("/");
+      navigate("/");
     }
   };
 
