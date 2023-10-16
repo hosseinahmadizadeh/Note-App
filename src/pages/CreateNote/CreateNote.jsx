@@ -23,14 +23,17 @@ const CreateNote = ({ setNotes }) => {
   return (
     <section className="bg-gradient-to-r from-slate-900 to-rose-500 h-screen">
       <header className=" p-6 grid grid-cols-5 items-center">
-        <Link to={"/"} className="bg-rose-50 p-2  col-end-1 rounded-md">
-          <BiArrowBack size={30} className="fill-rose-700" />
+        <Link
+          to={"/"}
+          className="bg-rose-100 p-2  col-end-1 rounded-md hover:scale-105"
+        >
+          <BiArrowBack size={30} className="fill-rose-950" />
         </Link>
         <h2 className="text-5xl col-start-1 col-end-3 pl-4 text-rose-50">
           Create Note
         </h2>
         <button
-          className="bg-rose-900 px-4 py-1 col-start-6 text-4xl rounded-md text-rose-50"
+          className="bg-rose-100 px-4 py-1 col-start-6 text-4xl rounded-md text-rose-950 hover:scale-105"
           onClick={handleSubmit}
         >
           Save
