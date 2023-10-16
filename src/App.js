@@ -1,7 +1,6 @@
 import Notes from "./pages/Notes/Notes";
 import CreateNote from "./pages/CreateNote/CreateNote";
 import EditNote from "./pages/EditNote/EditNote";
-import dummyNotes from "./dummy-notes";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -26,7 +25,10 @@ function App() {
             path="/create-note"
             element={<CreateNote setNotes={setNotes} />}
           />
-          <Route path="/edit-note/:id" element={<EditNote />} />
+          <Route
+            path="/edit-note/:id"
+            element={<EditNote notes={notes} setNotes={setNotes} />}
+          />
         </Routes>
       </BrowserRouter>
     </main>
