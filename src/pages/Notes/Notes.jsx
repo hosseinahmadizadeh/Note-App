@@ -3,7 +3,12 @@ import NoteItem from "../../components/NoteItem/NoteItem";
 import { BsSearch } from "react-icons/bs";
 import { BsPlusLg } from "react-icons/bs";
 import { Link } from "react-router-dom";
-const Notes = ({ notes }) => {
+const Notes = ({ notes, setNotes }) => {
+  const handleDeleteNote = (id) => {
+    const newNotes = notes.filter((note) => note.id !== id);
+    setNotes(newNotes);
+  };
+
   return (
     <div className="bg-gradient-to-r from-slate-900 to-rose-500 h-screen pb-3">
       <header className="p-6 grid grid-cols-5 ">
@@ -32,7 +37,12 @@ const Notes = ({ notes }) => {
       </header>
       <section className="grid grid-cols-3 gap-4 m-3">
         {notes.map((note) => (
-          <NoteItem key={note.id} note={note} />
+          <NoteItem
+            key={note.id}
+            note={note}
+            notes={notes}
+            onDelete={handleDeleteNote}
+          />
         ))}
       </section>
     </div>
